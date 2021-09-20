@@ -1,4 +1,4 @@
-package entry;
+package main;
 
 import commands.*;
 import iceCreams.*;
