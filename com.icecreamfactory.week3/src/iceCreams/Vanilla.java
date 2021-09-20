@@ -1,16 +1,25 @@
 package iceCreams;
 
-import core.*;
 import interfaces.IceCream;
 
-public class Vanilla extends IceCreamMaker implements IceCream  {
-   @Override
-   public void flavour() {
-      System.out.println("Vanilla");
-   }
+public class Vanilla implements IceCream {
+	
+	
+	@Override
+	public String getFlavour() {
+		// TODO Auto-generated method stub
+		return "Vanilla";
+	}
 
 	@Override
-	public String makeIceCream() {
-		return super.makeIceCream("VANILLA");
+	public Double getPrice() {
+		// TODO Auto-generated method stub
+		return 55d;
+	}
+
+	@Override
+	public Integer getWaitTime() {
+		// TODO Auto-generated method stub
+		return 20;
 	}
 }
